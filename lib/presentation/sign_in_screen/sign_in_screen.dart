@@ -28,8 +28,8 @@ class SignInScreen extends StatelessWidget {
                       children: [
                         CustomImageView(
                             imagePath: ImageConstant.imgDhiwiseblackm,
-                            height: getSize(59),
-                            width: getSize(59)),
+                            height: getVerticalSize(60),
+                            width: getHorizontalSize(59)),
                         Padding(
                             padding: getPadding(top: 50),
                             child: Text("lbl_welcome_back".tr,
@@ -133,7 +133,7 @@ class SignInScreen extends StatelessWidget {
                             alignment: Alignment.centerLeft,
                             child: Padding(
                                 padding: getPadding(
-                                    left: 39, top: 50, right: 53, bottom: 5),
+                                    left: 39, top: 50, right: 53, bottom: 100),
                                 child: Row(children: [
                                   Padding(
                                       padding: getPadding(bottom: 1),
