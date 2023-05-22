@@ -47,7 +47,7 @@ class Interests1ItemWidget extends StatelessWidget {
                   "lbl_john_doe".tr,
                   overflow: TextOverflow.ellipsis,
                   textAlign: TextAlign.left,
-                  style: AppStyle.txtPoppinsSemiBold16,
+                  style: AppStyle.txtPoppinsSemiBold16Gray900,
                 ),
                 Container(
                   width: getHorizontalSize(

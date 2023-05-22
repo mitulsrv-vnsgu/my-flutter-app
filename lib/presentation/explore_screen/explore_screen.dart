@@ -113,7 +113,7 @@ class ExploreScreen extends StatelessWidget {
                                                     .copyWith(
                                                         borderRadius:
                                                             BorderRadiusStyle
-                                                                .circleBorder20),
+                                                                .roundedBorder22),
                                                 child: Row(
                                                     mainAxisAlignment:
                                                         MainAxisAlignment.end,

@@ -31,7 +31,7 @@ class SignInScreen extends StatelessWidget {
                             height: getSize(59),
                             width: getSize(59)),
                         Padding(
-                            padding: getPadding(top: 36),
+                            padding: getPadding(top: 50),
                             child: Text("lbl_welcome_back".tr,
                                 overflow: TextOverflow.ellipsis,
                                 textAlign: TextAlign.left,
@@ -47,7 +47,7 @@ class SignInScreen extends StatelessWidget {
                                 decoration: AppDecoration.outlineBlack900
                                     .copyWith(
                                         borderRadius:
-                                            BorderRadiusStyle.circleBorder20),
+                                            BorderRadiusStyle.roundedBorder22),
                                 child: Row(
                                     crossAxisAlignment: CrossAxisAlignment.end,
                                     children: [
@@ -75,7 +75,7 @@ class SignInScreen extends StatelessWidget {
                                 decoration: AppDecoration.outlineBlack900
                                     .copyWith(
                                         borderRadius:
-                                            BorderRadiusStyle.circleBorder20),
+                                            BorderRadiusStyle.roundedBorder22),
                                 child: Row(children: [
                                   CustomImageView(
                                       imagePath: ImageConstant.imgFacebook1,
@@ -94,7 +94,8 @@ class SignInScreen extends StatelessWidget {
                             padding: getPadding(
                                 left: 15, top: 11, right: 15, bottom: 11),
                             decoration: AppDecoration.outlineBlack900.copyWith(
-                                borderRadius: BorderRadiusStyle.circleBorder20),
+                                borderRadius:
+                                    BorderRadiusStyle.roundedBorder22),
                             child: Row(children: [
                               CustomImageView(
                                   imagePath: ImageConstant.imgTwitter1,
@@ -113,7 +114,8 @@ class SignInScreen extends StatelessWidget {
                             padding: getPadding(
                                 left: 16, top: 11, right: 16, bottom: 11),
                             decoration: AppDecoration.outlineBlack900.copyWith(
-                                borderRadius: BorderRadiusStyle.circleBorder20),
+                                borderRadius:
+                                    BorderRadiusStyle.roundedBorder22),
                             child: Row(children: [
                               CustomImageView(
                                   imagePath: ImageConstant.imgAppleblacklog,
@@ -131,7 +133,7 @@ class SignInScreen extends StatelessWidget {
                             alignment: Alignment.centerLeft,
                             child: Padding(
                                 padding: getPadding(
-                                    left: 39, top: 36, right: 53, bottom: 5),
+                                    left: 39, top: 50, right: 53, bottom: 5),
                                 child: Row(children: [
                                   Padding(
                                       padding: getPadding(bottom: 1),

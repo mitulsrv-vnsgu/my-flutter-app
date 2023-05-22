@@ -113,11 +113,8 @@ class DrawerMenuDraweritem extends StatelessWidget {
   }
 
   onTapTxtHome(BuildContext context) {
-    NavigatorService.pushNamed(
-      AppRoutes.homeScreen,
-    );
+    // TODO: implement Actions
   }
-
   onTapTxtAudio(BuildContext context) {
     NavigatorService.pushNamed(
       AppRoutes.exploreScreen,

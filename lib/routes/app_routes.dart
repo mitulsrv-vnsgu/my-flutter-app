@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:mitul_s_application176/presentation/home_screen/home_screen.dart';
 import 'package:mitul_s_application176/presentation/sign_in_screen/sign_in_screen.dart';
 import 'package:mitul_s_application176/presentation/sign_up_screen/sign_up_screen.dart';
 import 'package:mitul_s_application176/presentation/interests_screen/interests_screen.dart';
@@ -14,8 +13,6 @@ import 'package:mitul_s_application176/presentation/notifications_screen/notific
 import 'package:mitul_s_application176/presentation/app_navigation_screen/app_navigation_screen.dart';
 
 class AppRoutes {
-  static const String homeScreen = '/home_screen';
-
   static const String signInScreen = '/sign_in_screen';
 
   static const String signUpScreen = '/sign_up_screen';
@@ -43,7 +40,6 @@ class AppRoutes {
   static const String initialRoute = '/initialRoute';
 
   static Map<String, WidgetBuilder> get routes => {
-        homeScreen: HomeScreen.builder,
         signInScreen: SignInScreen.builder,
         signUpScreen: SignUpScreen.builder,
         interestsScreen: InterestsScreen.builder,
@@ -56,6 +52,6 @@ class AppRoutes {
         privacyPolicyScreen: PrivacyPolicyScreen.builder,
         notificationsScreen: NotificationsScreen.builder,
         appNavigationScreen: AppNavigationScreen.builder,
-        initialRoute: HomeScreen.builder
+        initialRoute: SignInScreen.builder
       };
 }

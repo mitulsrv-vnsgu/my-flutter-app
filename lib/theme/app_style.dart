@@ -38,6 +38,15 @@ class AppStyle {
     fontWeight: FontWeight.w500,
   );
 
+  static TextStyle txtPoppinsSemiBold16Gray900 = TextStyle(
+    color: ColorConstant.gray900,
+    fontSize: getFontSize(
+      16,
+    ),
+    fontFamily: 'Poppins',
+    fontWeight: FontWeight.w600,
+  );
+
   static TextStyle txtPoppinsSemiBold14 = TextStyle(
     color: ColorConstant.black900,
     fontSize: getFontSize(
@@ -57,7 +66,7 @@ class AppStyle {
   );
 
   static TextStyle txtPoppinsRegular12 = TextStyle(
-    color: ColorConstant.black900,
+    color: ColorConstant.black9007f,
     fontSize: getFontSize(
       12,
     ),
@@ -66,7 +75,7 @@ class AppStyle {
   );
 
   static TextStyle txtPoppinsSemiBold16 = TextStyle(
-    color: ColorConstant.gray900,
+    color: ColorConstant.black900,
     fontSize: getFontSize(
       16,
     ),
@@ -81,15 +90,6 @@ class AppStyle {
     ),
     fontFamily: 'Poppins',
     fontWeight: FontWeight.w500,
-  );
-
-  static TextStyle txtPoppinsSemiBold16Black900 = TextStyle(
-    color: ColorConstant.black900,
-    fontSize: getFontSize(
-      16,
-    ),
-    fontFamily: 'Poppins',
-    fontWeight: FontWeight.w600,
   );
 
   static TextStyle txtPoppinsItalic12 = TextStyle(
@@ -186,15 +186,6 @@ class AppStyle {
     color: ColorConstant.black900,
     fontSize: getFontSize(
       14,
-    ),
-    fontFamily: 'Poppins',
-    fontWeight: FontWeight.w400,
-  );
-
-  static TextStyle txtPoppinsRegular12Black9007f = TextStyle(
-    color: ColorConstant.black9007f,
-    fontSize: getFontSize(
-      12,
     ),
     fontFamily: 'Poppins',
     fontWeight: FontWeight.w400,

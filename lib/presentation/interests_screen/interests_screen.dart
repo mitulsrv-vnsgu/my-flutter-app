@@ -37,7 +37,7 @@ class InterestsScreen extends StatelessWidget {
                 "lbl_welcome".tr,
                 overflow: TextOverflow.ellipsis,
                 textAlign: TextAlign.left,
-                style: AppStyle.txtPoppinsSemiBold16Black900.copyWith(
+                style: AppStyle.txtPoppinsSemiBold16.copyWith(
                   letterSpacing: getHorizontalSize(
                     0.5,
                   ),
