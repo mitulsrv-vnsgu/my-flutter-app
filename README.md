@@ -1,68 +1,124 @@
+## mitul_s_application175
 
-# mitul_s_application176
-### Table of contents
-- [System requirements](#system-requirements)
-- [Figma design guidelines for better UI accuracy](#figma-design-guideline-for-better-accuracy)
-- [Check the UI of the entire app](#app-navigations)
-- [Application structure](#project-structure)
-- [How to format your code?](#how-you-can-do-code-formatting)
-- [How you can improve code readability?](#how-you-can-improve-the-readability-of-code)
-- [Libraries and tools used](#libraries-and-tools-used)
-- [Support](#support)
+Generated with ❤️ from [DhiWise](https://www.dhiwise.com)
 
-### System requirements
+## Description
 
-Dart SDK Version 2.18.0 or greater.
-Flutter SDK Version 3.3.0 or greater.
+- This React application is built using [craco](https://craco.js.org/).
+- It uses [Tailwind CSS](https://tailwindcss.com/)
+- The application is generated in JavaScript.
 
-### Figma design guidelines for better UI accuracy
+## Pre-requisites
 
-Read our guidelines to increase the accuracy of design-to-code conversion by optimizing Figma designs.
-https://docs.dhiwise.com/docs/Designguidelines/intro
+- [git](https://git-scm.com/) - v2.13 or greater
+- [NodeJS](https://nodejs.org/en/) - v16 or greater
+- [npm](https://www.npmjs.com/) - v6 or greater
 
-### Check the UI of the entire app
+## Running in dev environment
 
-Check the UI of all the app screens from a single place by setting up the 'initialRoute'  to AppNavigation in the AppRoutes.dart file.
+1.  `cd YOUR_APPLICATION`
+2.  `npm install`
+3.  `npm start`
 
-### Application structure
+## .env file
 
-After successful build, your application structure should look like this:
+This file contains various environment variables that you can configure.
+
+## Folder Structure
 
 ```
 .
-├── android                         - It contains files required to run the application on an Android platform.
-├── assets                          - It contains all images and fonts of your application.
-├── ios                             - It contains files required to run the application on an iOS platform.
-├── lib                             - Most important folder in the application, used to write most of the Dart code..
-    ├── main.dart                   - Starting point of the application
-    ├── core
-    │   ├── app_export.dart         - It contains commonly used file imports
-    │   ├── constants               - It contains static constant class file
-    │   └── utils                   - It contains common files and utilities of the application
-    ├── presentation                - It contains widgets of the screens 
-    ├── routes                      - It contains all the routes of the application
-    └── theme                       - It contains app theme and decoration classes
-    └── widgets                     - It contains all custom widget classes
+├── package.json
+├── postcss.config.js
+├── craco.config.js
+├── public
+│   ├── assets
+│   │   └── images --------- All Project Images
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── manifest.json
+│   └── robots.txt
+├── README.md
+├── src
+│   ├── App.jsx
+│   ├── assets
+│   │   └── fonts ---------- Project fonts
+│   ├── components --------- UI and Detected Common Components
+│   ├── constants ---------- Project constants, eg: string consts
+│   ├── hooks -------------- Helpful Hooks
+│   ├── index.jsx
+│   ├── pages -------------- All route pages
+│   ├── Routes.jsx ---------- Routing
+│   ├── styles
+│   │   ├── index.css ------ Other Global Styles
+│   │   └── tailwind.css --- Default Tailwind modules
+│   └── util
+│       └── index.jsx ------- Helpful utils
+└── tailwind.config.js ----- Entire theme config, colors, fonts etc.
 ```
 
-### How to format your code?
+For the project to build, **these files must exist with exact filenames**:
 
-- if your code is not formatted then run following command in your terminal to format code
-  ```
-  dart format .
-  ```
+- `public/index.html` is the page template;
+- `src/index.jsx` is the JavaScript entry point.
 
-### How you can improve code readability?
+You may create subdirectories inside src.
 
-Resolve the errors and warnings that are shown in the application.
+## Available Scripts
 
-### Libraries and tools used
+In the project directory, you can run:
 
-- BLoC - State management
-  https://bloclibrary.dev
-- cached_network_image - For storing internet image into cache
-  https://pub.dev/packages/cached_network_image
+### `npm start`
 
-### Support
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-If you have any problems or questions, go to our Discord channel, where we will help you as quickly as possible: https://discord.com/invite/rFMnCG5MZ7
+### `npm test`
+
+Launches the test runner in the interactive watch mode.<br>
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.<br>
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time.
+
+## Installing a Dependency
+
+You can install any dependencies (for example, React Router) with `npm`:
+
+```sh
+npm install --save react-router
+```
+
+Alternatively you may use `yarn`:
+
+```sh
+yarn add react-router
+```
+
+## License
+
+MIT License
+
+Copyright (c) 2023 DhiWise
+
+Permission is hereby granted, to any person obtaining a copy of this software and associated documentation files (the "Software"),to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+## DhiWise Support
+
+<a href="https://twitter.com/dhiwise"><img src="https://user-images.githubusercontent.com/35039342/55471524-8e24cb00-5627-11e9-9389-58f3d4419153.png" width="60" alt="DhiWise Twitter"></a>
+
+<a href="https://www.youtube.com/c/DhiWise"><img src="https://cdn.vox-cdn.com/thumbor/0kpe316UpZWk53iw3bOLoJfF6hI=/0x0:1680x1050/1400x1400/filters:focal(706x391:974x659):format(gif)/cdn.vox-cdn.com/uploads/chorus_image/image/56414325/YTLogo_old_new_animation.0.gif" width="60" alt="DhiWise YouTube"></a>
+
+<a href="https://discord.gg/UPhCetBkVu"><img src="https://user-images.githubusercontent.com/47489894/183043664-b01aac56-0372-458a-bde9-3f2a6bded21b.png" width="60" alt="DhiWise Discord"></a>
+
+<a href="https://docs.dhiwise.com/docs/react/intro"><img src="https://global-uploads.webflow.com/618e36726d3c0f19c9284e56/62383865d5477f2e4f6b6e2e_main-monogram-p-500.png" width="60" alt="DhiWise Documentation"></a>
