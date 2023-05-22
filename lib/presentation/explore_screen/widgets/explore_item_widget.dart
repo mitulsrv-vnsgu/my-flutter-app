@@ -31,7 +31,7 @@ class ExploreItemWidget extends StatelessWidget {
                 "msg_lorem_ipsum_dol5".tr,
                 overflow: TextOverflow.ellipsis,
                 textAlign: TextAlign.left,
-                style: AppStyle.txtPoppinsSemiBold16,
+                style: AppStyle.txtPoppinsSemiBold16Gray900,
               ),
             ),
             Padding(

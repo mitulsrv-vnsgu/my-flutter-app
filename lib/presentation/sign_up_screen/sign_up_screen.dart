@@ -39,7 +39,8 @@ class SignUpScreen extends StatelessWidget {
                             padding: getPadding(
                                 left: 15, top: 10, right: 15, bottom: 10),
                             decoration: AppDecoration.outlineBlack900.copyWith(
-                                borderRadius: BorderRadiusStyle.circleBorder20),
+                                borderRadius:
+                                    BorderRadiusStyle.roundedBorder22),
                             child: Row(children: [
                               CustomImageView(
                                   imagePath: ImageConstant.imgGoogle1,
@@ -64,7 +65,7 @@ class SignUpScreen extends StatelessWidget {
                                 decoration: AppDecoration.outlineBlack900
                                     .copyWith(
                                         borderRadius:
-                                            BorderRadiusStyle.circleBorder20),
+                                            BorderRadiusStyle.roundedBorder22),
                                 child: Row(children: [
                                   CustomImageView(
                                       imagePath: ImageConstant.imgFacebook1,
@@ -83,7 +84,8 @@ class SignUpScreen extends StatelessWidget {
                             padding: getPadding(
                                 left: 15, top: 10, right: 15, bottom: 10),
                             decoration: AppDecoration.outlineBlack900.copyWith(
-                                borderRadius: BorderRadiusStyle.circleBorder20),
+                                borderRadius:
+                                    BorderRadiusStyle.roundedBorder22),
                             child: Row(children: [
                               CustomImageView(
                                   imagePath: ImageConstant.imgTwitter1,
@@ -102,7 +104,8 @@ class SignUpScreen extends StatelessWidget {
                             padding: getPadding(
                                 left: 15, top: 10, right: 15, bottom: 10),
                             decoration: AppDecoration.outlineBlack900.copyWith(
-                                borderRadius: BorderRadiusStyle.circleBorder20),
+                                borderRadius:
+                                    BorderRadiusStyle.roundedBorder22),
                             child: Row(children: [
                               CustomImageView(
                                   imagePath: ImageConstant.imgAppleblacklog,
